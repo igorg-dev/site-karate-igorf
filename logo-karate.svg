@@ -1,0 +1,7 @@
+<svg width="110" height="110" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="110" height="110" rx="22" fill="#fff3dc"/>
+  <circle cx="55" cy="55" r="42" fill="#7c1d15"/>
+  <path d="M26 66 C42 48, 58 47, 84 34" stroke="#ffd28a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M28 78 C45 66, 65 63, 86 56" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="55" y="42" text-anchor="middle" font-family="Georgia" font-size="18" font-weight="bold" fill="#fff3dc">空手</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#3a2a1b"/>
+  <rect y="610" width="1600" height="290" fill="#b66d21" opacity="0.7"/>
+  <path d="M0 610 L800 300 L1600 610" fill="#1f130c" opacity="0.6"/>
+  <g opacity="0.42" stroke="#fff3dc" stroke-width="8">
+    <line x1="220" y1="620" x2="350" y2="900"/>
+    <line x1="1380" y1="620" x2="1250" y2="900"/>
+    <line x1="0" y1="740" x2="1600" y2="740"/>
+  </g>
+  <circle cx="800" cy="210" r="130" fill="#7c1d15" opacity="0.55"/>
+</svg>

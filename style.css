@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+    background: #fff8ec;
+    color: #2b2118;
+    line-height: 1.7;
+}
+
+header {
+    width: 100%;
+    background: #1f130c;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 4px solid #d98b22;
+}
+
+.menu-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff8ec;
+    background: #7c1d15;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #d98b22;
+    color: #1f130c;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(31,19,12,0.72), rgba(124,29,21,0.68)), url('banner-karate.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+.banner-historia {
+    background-image: linear-gradient(rgba(31,19,12,0.76), rgba(49,49,49,0.60)), url('banner-dojo.svg');
+}
+
+.banner-valores {
+    background-image: linear-gradient(rgba(31,19,12,0.72), rgba(152,91,18,0.62)), url('banner-faixas.svg');
+}
+
+.banner-texto {
+    max-width: 900px;
+    background: rgba(31, 19, 12, 0.45);
+    border: 2px solid rgba(217, 139, 34, 0.75);
+    padding: 40px;
+    border-radius: 22px;
+    backdrop-filter: blur(3px);
+}
+
+.banner h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 64px;
+    margin-bottom: 18px;
+    color: #ffd28a;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+.conteudo {
+    width: 90%;
+    max-width: 1200px;
+    margin: 55px auto;
+    background: #ffffff;
+    padding: 42px;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(53, 35, 18, 0.14);
+    border-left: 8px solid #d98b22;
+}
+
+.conteudo h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 34px;
+    margin-bottom: 18px;
+    color: #7c1d15;
+}
+
+.conteudo h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #985b12;
+}
+
+.diferenca {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.caixa-info {
+    padding: 24px;
+    border-radius: 18px;
+    background: #fff3dc;
+    border: 2px solid #f1c27a;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 28px;
+}
+
+.card {
+    background: linear-gradient(180deg, #fff7e9, #f8dfb6);
+    padding: 24px;
+    border-radius: 18px;
+    border-top: 5px solid #7c1d15;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(31,19,12,0.16);
+}
+
+.lista-valores {
+    padding-left: 22px;
+    margin-top: 12px;
+}
+
+footer {
+    width: 100%;
+    background: #1f130c;
+    color: white;
+    padding: 28px 5%;
+    border-top: 4px solid #d98b22;
+}
+
+.footer-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-conteudo img {
+    width: 210px;
+    max-width: 100%;
+    background: white;
+}
+
+.icones a {
+    color: #ffd28a;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .menu-container, .footer-conteudo {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 42px;
+    }
+
+    .cards, .diferenca {
+        grid-template-columns: 1fr;
+    }
+
+    .conteudo {
+        padding: 26px;
+    }
+}

@@ -1,0 +1,7 @@
+<svg width="220" height="120" viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="120" rx="12" fill="#ffffff"/>
+  <circle cx="55" cy="60" r="32" fill="#b30000"/>
+  <text x="55" y="69" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="white">UCB</text>
+  <text x="100" y="52" font-family="Arial" font-size="20" font-weight="bold" fill="#111">Universidade</text>
+  <text x="100" y="78" font-family="Arial" font-size="20" font-weight="bold" fill="#111">Católica</text>
+</svg>
